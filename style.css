@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1050px;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.header-navbar nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header-navbar ul li{
+    /* display: flex; */
+}
+.header-navbar nav a{
+    /* display: flex; */
+    color: green;
+    margin-right: .8rem;
+}
