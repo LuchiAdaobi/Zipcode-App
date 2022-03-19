@@ -4,44 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
-    <title>Zipcode App</title>
+    <title>Location Finder</title>
   </head>
   <body>
-    <!-- NAVBAR -->
-    <header class="header">
-      <div class="header-icon">lorem</div>
-      <div class="header-navbar">
-        <nav>
-          <li><a href="#">Home</a></li>
+    <section class="hero hero-body is-dark container">
+        <h1 class="title">US Location Info</h1>
+        <h2 class="subtitle">Enter a zipcode to get the location info</h2>
 
-          <li><a href="#">About</a></li>
-
-          <li><a href="#">Skills</a></li>
-
-          <li><a href="#">Contact</a></li>
-
-          <li><a href="#">Team</a></li>
-        </nav>
-      </div>
-    </header>
-
-    <!-- HERO -->
-
-    <section class="hero">
-      <div class="hero-content">
-        <img src="" alt="" />
-
-        <div class="hero-text">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            tenetur debitis quia consequatur adipisci quis ullam eius.
-            Voluptates rerum rem expedita quaerat, numquam mollitia unde quod?
-            Nesciunt amet est eius!
-          </h1>
-        </div>
-      </div>
+        <form id="zipForm">
+            <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input zip is-large" type="text" placeholder="Enter Zipcode">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-map-pin"></i>
+                  </span>
+                  <span class="icon is-small is-right icon-check">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span class="icon is-small is-right icon-remove">
+                    <i class="fas fa-remove"></i>
+                  </span>
+                </div>
+              </div>
+        </form>
     </section>
+    </section>
+
+    <br>
+    <div class="container">
+        <div id="output"></div>
+    </div>
   </body>
 </html>
