@@ -64,7 +64,7 @@ function deleteLocation(e) {
   if (e.target.className === 'delete') {
     document.querySelector('.message').remove();
     document.querySelector('.zip').value = '';
-    document.querySelector('.icon-check').remove();
+    document.querySelector('.icon-check').style.display = 'none';
   }
 }
 

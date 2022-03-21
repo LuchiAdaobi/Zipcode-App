@@ -1,3 +1,12 @@
 .icon-remove, .icon-check {
     display: none;
 }
+
+.hero{
+    background: rgb(8, 73, 73);
+    color: #fff;
+}
+
+.title, .subtitle {
+    color: #fff;
+}
