@@ -70,3 +70,12 @@ function deleteLocation(e) {
 
 // listen for delete
 document.querySelector('body').addEventListener('click', deleteLocation);
+
+// Remove error location
+function removeErrorLocation() {
+  document.querySelector('.message').remove();
+  document.querySelector('.zip').value = '';
+  document.querySelector('.icon-remove').style.display = 'none';
+}
+
+document.querySelector('body').addEventListener('click', removeErrorLocation);
