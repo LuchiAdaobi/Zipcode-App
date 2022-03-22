@@ -79,3 +79,10 @@ function removeErrorLocation() {
 }
 
 document.querySelector('body').addEventListener('click', removeErrorLocation);
+
+// Dropdown Menu
+const dropdown = document.querySelector('.dropdown');
+dropdown.addEventListener('click', (e) => {
+  e.stopPropagation();
+  dropdown.classList.toggle('is-active');
+});

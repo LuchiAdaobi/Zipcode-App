@@ -11,9 +11,29 @@
     <title>Location Finder</title>
   </head>
   <body>
+    
     <section class="hero hero-body container">
         <h1 class="title">US Location Info</h1>
         <h2 class="subtitle">Enter a zipcode to get the location info</h2>
+
+        <div class="dropdown">
+          <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+              <span class="country">Countries</span>
+              <span class="icon is-small">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+          <div class = "dropdown-menu" id = "dropdown-menu" role = "menu">
+            <div class = "dropdown-content">
+               <a href = "#" class = "dropdown-item">United States</a>
+               <a class = "dropdown-item">United Kingdom</a>
+               <a href = "#" class = "dropdown-item ">Germany</a>
+               <a href = "#" class = "dropdown-item">South Africa</a>
+               <a href = "#" class = "dropdown-item">France</a>
+            </div>
+        </div>
 
         <form id="zipForm">
             <div class="field">

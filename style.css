@@ -1,12 +1,25 @@
-.icon-remove, .icon-check {
-    display: none;
+.icon-remove,
+.icon-check {
+  display: none;
 }
 
-.hero{
-    background: rgb(8, 73, 73);
-    color: #fff;
+.hero {
+  background: rgb(8, 73, 73);
+  color: #fff;
 }
 
-.title, .subtitle {
-    color: #fff;
+.title,
+.subtitle {
+  color: #fff;
+}
+.dropdown button {
+  padding: 1.8rem;
+  font-size: 1.2rem;
+}
+
+#zipForm {
+  margin-left: 0.5rem;
+}
+.dropdown-item {
+  font-size: 1.2rem;
 }
