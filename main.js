@@ -86,3 +86,11 @@ dropdown.addEventListener('click', (e) => {
   e.stopPropagation();
   dropdown.classList.toggle('is-active');
 });
+
+// DOM elements
+const us = document.querySelector('.us');
+const uk = document.querySelector('.uk');
+const france = document.querySelector('.france');
+const southAfrica = document.querySelector('.south-africa');
+const germany = document.querySelector('.germany');
+const dropdownItem = document.querySelector('.dropdown-item');
